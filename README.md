@@ -40,27 +40,6 @@ mv MagicMouseTap.app /Applications/
 open /Applications/MagicMouseTap.app
 ```
 
-## Build & run
-
-```bash
-./build.sh
-open build/MagicMouseTap.app
-```
-
-Or install permanently:
-
-```bash
-./build.sh
-cp -R build/MagicMouseTap.app /Applications/
-open /Applications/MagicMouseTap.app
-```
-
-Universal binary (Apple Silicon + Intel):
-
-```bash
-ARCH=universal ./build.sh
-```
-
 ## Grant Accessibility
 
 On first launch, macOS prompts for Accessibility access. If not:
