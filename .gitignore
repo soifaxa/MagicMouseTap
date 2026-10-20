@@ -1,0 +1,7 @@
+build/
+*.app/
+.DS_Store
+*.log
+DerivedData/
+Resources/AppIcon.iconset/
+Resources/AppIcon-1024.png
