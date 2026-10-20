@@ -22,6 +22,24 @@ The Magic Mouse has a multitouch surface but no system “Tap to click” settin
 - Apple Magic Mouse connected (Bluetooth or Lightning/USB)  
 - Accessibility permission (to post click events)  
 
+## Install (release)
+
+Download the latest `.app` from the [Releases](https://github.com/soifaxa/MagicMouseTap/releases) page:
+
+1. Download **MagicMouseTap-*-macos.zip**
+2. Unzip and move `MagicMouseTap.app` to `/Applications`
+3. Open the app (right-click → **Open** if Gatekeeper blocks it — the release is ad-hoc signed, not notarized)
+4. Grant Accessibility access (see below)
+
+```bash
+# Example for v1.0.0
+curl -L -o MagicMouseTap.zip \
+  https://github.com/soifaxa/MagicMouseTap/releases/download/v1.0.0/MagicMouseTap-1.0.0-macos.zip
+unzip MagicMouseTap.zip
+mv MagicMouseTap.app /Applications/
+open /Applications/MagicMouseTap.app
+```
+
 ## Build & run
 
 ```bash
