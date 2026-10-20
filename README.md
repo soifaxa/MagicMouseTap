@@ -12,6 +12,7 @@ The Magic Mouse has a multitouch surface but no system “Tap to click” settin
 
 - Tap the **left** half of the surface → primary click  
 - Tap the **right** half → secondary (right) click  
+- Hold then move → drag & drop / sliders  
 - Double / triple tap supported  
 - Toggle on/off from the menu bar  
 - Reconnect after sleep / Bluetooth reconnect  
@@ -32,9 +33,9 @@ Download the latest `.app` from the [Releases](https://github.com/soifaxa/MagicM
 4. Grant Accessibility access (see below)
 
 ```bash
-# Example for v1.0.0
+# Example for v1.0.1
 curl -L -o MagicMouseTap.zip \
-  https://github.com/soifaxa/MagicMouseTap/releases/download/v1.0.0/MagicMouseTap-1.0.0-macos.zip
+  https://github.com/soifaxa/MagicMouseTap/releases/download/v1.0.1/MagicMouseTap-1.0.1-macos.zip
 unzip MagicMouseTap.zip
 mv MagicMouseTap.app /Applications/
 open /Applications/MagicMouseTap.app
